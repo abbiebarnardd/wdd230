@@ -1,0 +1,38 @@
+header{
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    background-color: rgb(215, 141, 192);
+}
+
+header, img{
+    width: 100%;
+}
+
+h1{
+    align-self: center;
+    font-size: 40px;
+    color: white;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h1, main, h2, footer{
+font-family: 'Monaco';
+}
+
+footer{
+    padding: 1em;
+    display: grid;
+    position: relative;
+    background-color:rgb(215, 141, 192);
+    text-align: center;
+    top: 73px;
+}
+
+header, main, footer, h1{
+    margin: 1rem auto;
+    max-width: 1000px;
+}
