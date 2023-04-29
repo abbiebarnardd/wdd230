@@ -46,9 +46,7 @@ main {
     grid-gap: 25px;
     margin: 40px auto;
 }
-
-section {
-
+.column {
     display: block;
     border: solid 3px #28363D;
     padding: 0px 15px 0px 15px;
@@ -56,7 +54,7 @@ section {
     background-color: white;
 }
 
-section img {
+.column img {
 
     display: block;
     max-width: 300px;
@@ -81,7 +79,7 @@ footer{
         grid-template-columns: 1fr 1fr;
     }
 
-    main > section:nth-of-type(3) {
+    main > .column:nth-of-type(3) {
 
         justify-self: center;
         grid-column: span 2;
@@ -97,13 +95,13 @@ footer{
         grid-gap: 25px 0;
     }
 
-    main > section {
+    main > .column {
         grid-column: 1;
         max-width: 300px;
         justify-self: center;
     }
 
-    section img {
+    .column img {
        max-width: 300px;
     }
 }
