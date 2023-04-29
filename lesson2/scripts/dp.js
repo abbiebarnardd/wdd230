@@ -40,4 +40,4 @@ let options = {
 };
 /*document.getElementById(
     "currentdate2"
-).textContent = new Date().toLocaleDatesString("en-US", options); */
+).textContent = new Date().toLocalDatesString("en-US", options);*/

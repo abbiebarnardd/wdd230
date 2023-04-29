@@ -1,8 +1,9 @@
+
 header{
     padding: 1em;
     display: grid;
     grid-template-columns: 80% 20%;
-    background-color: rgb(215, 141, 192);
+    background-color: #EE4E34;
 }
 
 header, img{
@@ -12,22 +13,29 @@ header, img{
 h1{
     align-self: center;
     font-size: 40px;
-    color: white;
+    color: #FCEDDA;
 }
 
 h2{
     font-size: 30px;
 }
 
-h1, main, h2, footer{
-font-family: 'Monaco';
+h1, footer{
+    font-family: 'Courgette', cursive;
+
+}
+
+main, h2 {
+    font-family: 'Libre Baskerville', serif;
+   
 }
 
 footer{
     padding: 1em;
     display: grid;
     position: relative;
-    background-color:rgb(215, 141, 192);
+    color: #FCEDDA;
+    background-color:#EE4E34;
     text-align: center;
     top: 73px;
 }

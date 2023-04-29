@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Gantari&&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+html {
+    background-color: #C4CDC1;
+}
+body{
+
+    display: block;
+    max-width: 950px;
+    margin: 0 auto;
+}
+header {
+    color:white;
+    background-color: #28363D;
+    text-align: center;
+    padding: 1em;
+}
+
+h1 {
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+h2 {
+    font-family: 'Gantari', sans-serif;
+}
+
+h3 {
+
+    border: solid 1px #28363D;
+    color: #28363D;
+    padding: 10px 10px 10px 10px;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 95%;
+}
+
+span {
+    font-size: 110%;
+    font-weight: bold;
+}
+main {
+
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
+    margin: 40px auto;
+}
+
+section {
+
+    display: block;
+    border: solid 3px #28363D;
+    padding: 0px 15px 0px 15px;
+    font-family: 'Gantari', sans-serif;
+    background-color: white;
+}
+
+section img {
+
+    display: block;
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    height: 600px;
+    overflow: hidden;
+}
+
+footer{
+    color:white;
+    background-color: #28363D;
+    text-align: center;
+    padding: 1em;
+    font-family: 'Gantari', sans-serif;
+
+
+}
+
+@media screen and (min-width: 642px) and (max-width: 769px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    main > section:nth-of-type(3) {
+
+        justify-self: center;
+        grid-column: span 2;
+        width: 50%;
+     
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 641px) {
+
+    main {
+        grid-template-columns: 1fr;
+        grid-gap: 25px 0;
+    }
+
+    main > section {
+        grid-column: 1;
+        max-width: 300px;
+        justify-self: center;
+    }
+
+    section img {
+       max-width: 300px;
+    }
+}
