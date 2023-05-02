@@ -1,46 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Gantari&&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
 
-header{
+body {
+    display: block;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    color: white;
+    background-color: #28363D;
     padding: 1em;
     display: grid;
     grid-template-columns: 80% 20%;
-    background-color: #EE4E34;
 }
 
-header, img{
+header, img {
     width: 100%;
 }
 
-h1{
-    align-self: center;
-    font-size: 40px;
-    color: #FCEDDA;
+h1 {
+    font-family: 'Rubik Mono One', sans-serif;
+    margin-left: 316px;
+    
 }
-
-h2{
+h2 {
     font-size: 30px;
+    margin: 0 0 0 0;
 }
 
-h1, footer{
-    font-family: 'Courgette', cursive;
-
+ul {
+    margin: 0 0 0 0; 
 }
 
-main, h2 {
-    font-family: 'Libre Baskerville', serif;
-   
+a {
+    text-decoration: none;
 }
 
-footer{
-    padding: 1em;
+main {
     display: grid;
-    position: relative;
-    color: #FCEDDA;
-    background-color:#EE4E34;
-    text-align: center;
-    top: 73px;
+    width: 100%;
+    grid-template-columns: 1 fr;
+    margin: 0 auto;
+    font-family: 'Gantari', sans-serif;
+    background-color: white;
+    padding: 3em 1em 3em 1em;
 }
 
-header, main, footer, h1{
-    margin: 1rem auto;
-    max-width: 1000px;
+footer {
+    color:white;
+    background-color: #28363D;
+    text-align: center;
+    padding: 1em;
+    font-family: 'Gantari', sans-serif;
+    width: 100%;
+}
+
+html {
+ 
+    background-color: #C4CDC1;
+}
+
+@media screen and (max-width: 641px) {
+
+    header {
+ 
+        padding: 1em;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    h1 {
+        text-align: center;
+        margin-left: 0;
+    }
+    img {
+     display: none;
+    }
 }
