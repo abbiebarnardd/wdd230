@@ -4,12 +4,14 @@
 html {
     background-color: #C4CDC1;
 }
+
 body{
 
     display: block;
     max-width: 950px;
     margin: 0 auto;
 }
+
 header {
     color:white;
     background-color: #28363D;
