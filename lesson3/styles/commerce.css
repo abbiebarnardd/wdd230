@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+header, body, footer {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2 {
+    font-family: 'Lobster Two', cursive;
+}
+
+
+header {
+    color: black;
+    background-color: #FFECD1;
+    text-align: center;
+    padding: 1em;
+    border-bottom: solid 5px #FFA047;
+    
+}
+
+body {
+    display: block;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+footer {
+    color: black;
+    background-color:#FFECD1;
+    text-align: center;
+    padding: 1em;
+    border-bottom: solid 5px #FFA047;
+
+}
+
+nav {
+
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1em 0 1em 0;
+    background-color: #6b8e67;
+}
+
+nav > ul {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+main {
+    padding: 1em;
+}
+img {
+
+    margin-bottom: 1em;
+}
+
+span > p {
+    font-size: 1.3em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.color {
+    width: 100%;
+}
+
+.headername {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+div {
+    display: block;
+}
+
+#typography-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 25px;
+}
+
+.typography-box {
+    display: block;
+    border: solid 1px black;
+    text-align: center;
+    padding: 1em;
+}
+
+.typography-box > span {
+    display: block;
+    width: 100%;
+}
+
+.header {
+    background-color:#FFECD1;
+    border-bottom: solid 3px #FFA047;
+    padding-top: 1em;
+    
+}
+
+.footer {
+    font-size: 16px;
+    font-style: normal;
+    background-color:#FFECD1;
+    border-bottom: solid 3px #FFA047;
+    padding: 2.2em;
+}
+
+ .navigation > p {
+    font-size: 20px;
+    font-style: normal;
+    background-color: #6B8E67;
+    padding: 1em;
+    color: white;
+}
+
+.header-two > p {
+
+    font-family: 'Lobster Two', cursive;
+    font-size: 25px;
+    font-style: normal;
+}
+
+.paragraph > p {
+   font-size: 16px;
+   font-style: normal;
+   padding: 1em;
+}
+
+@media (max-width: 640px) {
+
+    body {
+        min-width: 200px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    nav > ul {
+
+        display:grid;
+        grid-template-columns: 1fr;
+    }
+
+    li {
+        padding: .5em;
+    }
+
+    #typography-section, .personas {
+        display:grid;
+        grid-template-columns: 1fr;
+    }
+
+}
