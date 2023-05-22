@@ -15,9 +15,9 @@
         <span class="headerlogo">
         <img src="images/westsidesunny.png" alt="logo">
         </span>
+        <button id="hamButton">&#9776;</button>
     </header>
     <nav>
-        <button id="hamButton">&#9776;</button>
         <ul class="navigation">
         <li><a href="index.html" title="Home">Home</a></li>
         <li><a href="#" title="Community">Community</a></li>
@@ -30,28 +30,88 @@
        <div id="main">
         <img src="images/mesquite3.webp" alt="mesquite">
        </div> 
-       <div id="sidebar">Sidebar</div>
+       <div id="sidebar">
+        <h3 class="five">5 Day Forecast</h3>
+        <div class="forecast">
+            <section>
+                <h4 id="mon">Mon</h4>
+                <div class="sunbox">
+                <img class="sunpic" src="images/sun3.png" alt="sun">
+                </div>
+                <span class="temp">92°F</span>
+            </section>
+            <section>
+                <h4 id="tue">Tue</h4>
+                <div class="sunbox">
+                <img class="sunpic" src="images/sun3.png" alt="sun">
+                </div>
+                <span class="temp">85°F</span>
+            </section>
+            <section>
+                <h4 id="wed">Wed</h4>
+                <div class="sunbox">
+                <img class="sunpic" src="images/sun3.png" alt="sun">
+                </div>
+                <span class="temp">95°F</span>
+            </section>
+            <section>
+                <h4 id="thur">Thur</h4>
+                <div class="sunbox">
+                <img class="sunpic" src="images/sun3.png" alt="sun">
+                </div>
+                <span class="temp">97°F</span>
+            </section>
+            <section>
+                <h4 id="fri">Fri</h4>
+                <div class="sunbox">
+                <img class="sunpic" src="images/sun3.png" alt="sun">
+                </div>
+                <span class="temp">90°F</span>
+            </section>
+        </div>
+       </div>
        <div id="content1">
         <h3 class="content1header">Dinner Menu</h3>
         <ul class="dinner">
-            <li>Monday...Broccoli Cheddar Soup</li>
-            <li>Tuesday...Beef Stroganoff</li>
+            <div class="dinnerlist">
+            <li>M: Broccoli Cheddar Soup</li>
+            <li>T: Beef Stroganoff</li>
+            <li>W: Roast</li>
+            <li>TH: Spaghetti</li>
+            <li>F: Chicken Fingers</li>
+            <li>S: Potato Soup</li>
+            </div>
         </ul>
 
        </div>
-       <div id="content2">Content 2</div>
-       <div id="content3">Content 3</div>
-       <div id="content4">Content 4</div>
+       <div id="content2">
+        <h3 class="activity">Next Activity:</h3>
+        <p class=pactivity>Hot Air Balloon Festival.</p>
+        <p class="pactivity">June 9th, 10am</p>
+       </div>
+       <div id="content3">
+        <img class="golfcourse" src="images/golfcourse.jpeg">
+       </div>
+
+       <div id="content4">
+        <img class="grandma" src="images/grandma.jpeg" alt="grandma">
+        <h3 class="resident">Resident of the Month:</h3>
+        <p>Elaine Ladle has been here with us at West Side Sunny
+            for 2 years. She loves to particpate in as many activites
+            as she can, especially the crafting activites. She moved
+            from Boise, Id to be near her daughter in Mesquite. 
+            She's made lots of friends within the community. We are happy you
+            are here, Elaine! </p>
+       
     </main>
     
     <section class="contact">
-        <div class="iframeadjust">
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d47366
         .34469339145!2d-111.87517579490891!3d42.098977407066165!2m3!1f0!2f0!3f0!
         3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1602872714788!5m2!1sen!2sus" 
         allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        </div>
-        <div class="info">
+
+        <div class="bulk">
         <h3>Contact Information</h3>
         <ul class="text">
             <li>
@@ -64,7 +124,6 @@
                 info@westsidesunny.com
             </li>
         </ul>
-        </div>
         <div class="social">
             <a href="https://facebook.com">
                 <img src="images/facebook.png" alt="Facebook">
@@ -72,6 +131,7 @@
             <a href="https://instagram.com">
                 <img src="images/instagram.jpeg" alt="Instagram">
             </a>   
+        </div>
         </div>
     </section>
     <footer>

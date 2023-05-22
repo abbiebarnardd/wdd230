@@ -1,21 +1,20 @@
 @media (max-width: 850px) {
 
+
     main {
         display: grid;
-        height: 700px;
-        width: 100%;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-areas: 
-            "main"
-            "content1"
-            "content2"
-            "content3"
-            "content4"
-            "sidebar"
-            "sidebar"
-            ;
-        grid-gap: .7rem;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        "main"
+        "content1"
+        "conten2"
+        "content3"
+        "content4"
+        "contact"
+        ;
+        grid-gap: .4rem;
+        width: auto;
     }          
 
     header {
@@ -67,10 +66,53 @@
         margin-left: 0;
     }
 
+    .sidebar {
+        display: none;
+    }
+    .forecast {
+        display: none;
+        
+    }
+
+    .five {
+        display: none;
+    }
+    .sunbox {
+ 
+        display: block;
+        width: 55px;
+        max-height: 55px;
+        background-color: white;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+    
+    }
+
+    section.contact {
+       grid-template-columns: 1fr;
+       grid-gap: 5px;
+    }
+
+    section.contact iframe {
+       
+        margin: 0 auto;
+    }
+    
+    .bulk {
+
+        border: none;
+        text-align: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    div.social {
+        padding-left: 75px;
+    }
+
     footer {
         margin-top: .7rem;
     }
-
 
 }
 

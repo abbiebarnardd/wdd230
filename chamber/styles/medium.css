@@ -1,29 +1,26 @@
-@media (max-width: 1040px) {
+@media (max-width: 800px) {
 
+    body {
+        max-width: 900px;
+    }
     main {
     display: grid;
-    height: 750px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas: 
-       "main main"
-       "content1 content1"
-       "sidebar sidebar"
-       "content2 content2"
-       "content3 content4";
+    height: 700px;
     grid-gap: .4rem;
     }
 
     header {
+    display: grid;
+    grid-template-columns: 50% auto;
     padding-left: 5em;
     padding-right: 5em;
     }
 
-   
 
     #hamButton {
+        
         display: block;
-        position: absolute;
+        margin: auto;
         top: 10px;
         right: 10px;
         width: fit-content;
@@ -69,43 +66,57 @@
     }
     
     #main{
-        background: lightgrey;
+        background: #FFECD1;
         grid-area: main;
-        margin-top: .8rem;
+       /* margin-top: .8rem; */
     }
     
     #sidebar{
-        background: lightgrey;
+        background: #FFECD1;
         grid-area: sidebar;
        /* margin-top: .4rem;
         margin-bottom: .4rem;*/
     }
     
     #content1{
-        background: lightgrey;
+        background: #FFECD1;
         grid-area: content1;
        /* margin-top: .4rem;*/
     }
     
     #content2{
-        background: lightgrey;
+        background: #FFECD1;
         grid-area: content2;
     }
     #content3{
-        background: lightgrey;
+        background: #FFECD1;
         grid-area: content3;
-        margin-bottom: .8rem;
+        /*margin-bottom: .8rem;
         margin-top: .6rem;
-        margin-right: .2rem;
+        margin-right: .2rem;*/
     }
     
     #content4{
-        background: lightgrey;
+        background: #FFECD1;
         grid-area: content4;
-        margin-bottom: .8rem;
+        grid-template-columns: 50% auto;
+        /*margin-bottom: .8rem;
         margin-top: .6rem;
-        margin-left: .2rem;
+        margin-left: .2rem;*/
+        height: 250px;
     }
     
+    img.grandma {
+     height: 220px;
+    }
+
+    p {
+        font-size: 85%;
+    }
 }
 
+.forecast {
+   
+   padding-right: 1rem;
+   padding-left: 1rem;
+}
