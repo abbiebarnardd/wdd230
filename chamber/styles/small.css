@@ -1,5 +1,9 @@
 @media (max-width: 600px) {
 
+    html {
+        width: auto;
+    }
+
     nav {
         font-size: 20px;
         width: 100%;
