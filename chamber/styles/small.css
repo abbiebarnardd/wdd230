@@ -1,7 +1,8 @@
 @media (max-width: 600px) {
 
-    html {
-        margin: 0 auto;
+    .sitewrapper {
+        width: 100%;
+        overflow-x: hidden;
     }
 
     nav {
