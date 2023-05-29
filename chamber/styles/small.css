@@ -1,7 +1,7 @@
 @media (max-width: 600px) {
 
     html {
-        width: auto;
+        margin: 0 auto;
     }
 
     nav {
