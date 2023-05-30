@@ -4,7 +4,6 @@
 body {
         margin: 3rem;
         display: grid;
-        /*grid-template-rows: auto 80% auto;*/
 }
 
 
@@ -57,58 +56,60 @@ footer {
     text-align: center;
     padding: 1em;
     border-bottom: solid 5px #FFA047;
+    font-family:'Roboto Condensed', sans-serif;
 
 }
 
 /*------------- Navigation------------*/
 
-nav {
+.navbar {
+
     font-size: 20px;
     width: 100%;
-    margin: 0 auto;
     background-color: #6b8e67;
     text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem
+}
+
+#hamButton {
+    display: none; /* hide hamburger button */
+} 
+
+.navigation {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family:'Roboto Condensed', sans-serif;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 1rem 3rem 1rem 3rem;
     
 }
 
-nav button {
-    background-color: transparent;
-    border: none;
-    font-size: 40px;
-    color: white;
-   
-}
 
-nav ul {
-    margin: 0;
-    padding: 0;
-}
-nav ul li a {
-    display: block;
+.navbar ul li a {
     text-decoration: none;
     color:white;
     text-decoration: none;
-    font-size: 1rem;
-    padding: 10px;
+    font-size: 1.2rem;
 }
 
-nav li a:hover {
+.navbar ul li a:hover {
     transition: 0.7s ease;
-}
-
-nav li a:hover {
     color:#FFA047;
 }
 
-nav ul.hide {
-    display: none;
-}
 
 
 /*----------Social Media Links-----------*/
 
-.social-facebook, .social-instagram {
-    padding-bottom: 10px;
+.social-facebook .social-instagram {
+    display: inline-block;
 }
 
 .social-facebook a, .social-instagram a {
@@ -131,68 +132,6 @@ nav ul.hide {
   object-fit: cover;
 }
 
-/*nav {
-
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    list-style: none;
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    padding: 1.5em 0 1.5em 0;
-    background-color: #6b8e67;
-    
-} 
-
-nav button {
-    display: none;
-}
-
-nav li a {
-    text-decoration: none;
-    color:white;
-    font-size: 1.3em;
-}
-
-
-/*nav {
-    font-size: 20px;
-    width: 100%;
-    margin: 0 auto;
-    background-color: #6b8e67;
-    text-align: center;
-    
-}*/
-
-/*nav button {
-    background-color: transparent;
-    border: none;
-    font-size: 40px;
-    color: white;
-   
-}*/
-
-/*nav ul li a {
-    display: block;
-    text-decoration: none;
-    color:white;
-    text-decoration: none;
-    font-size: 1rem;
-    padding: 10px;*/
-
-/*nav li a:hover {
-    transition: 0.7s ease;
-}
-
-nav li a:hover {
-    color:#FFA047;
-}
-
-nav ul.hide {
-    display: none;
-}
-*/
-
 /*----------Main Section--------*/
 #main {
     background: lightgrey;
@@ -206,6 +145,7 @@ nav ul.hide {
     top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-family: 'Lobster Two', cursive;
 }
 
 .mainbutton {
@@ -215,14 +155,16 @@ nav ul.hide {
     transform: translate(-50%, -50%);
     background-color: #6b8e67;
     border-radius: 25px;
-    padding: .5rem 2rem .5rem 2rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    width: 40%;
     border:solid white;
 }
 
  .mainbutton a {
     color: white;
     font-size: 2rem;
-    text-decoration: none;;
+    text-decoration: none;
  }
 
  .mainbutton a:hover {
@@ -256,7 +198,6 @@ nav ul.hide {
 
 .box1header {
     font-size: 1.5rem;
-    /*border-bottom: solid 3px #FFA047;*/
     text-align: center;
     margin-right: 3rem;
     margin-left: 3rem;
@@ -294,7 +235,6 @@ hr {
 #content1{
     background: #FFECD1;
     grid-area: content1;
-    /*margin-top: .4rem;*/
     text-align: center;
     width: 100;
 }
@@ -328,13 +268,23 @@ hr {
     text-align: center;
 }
 
+.symbol {
+    font-size: 4rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.weatherheader {
+    margin-bottom: 0;
+}
+
+.degrees {
+    margin-top:0;
+}
 /*---------Content 3 Section -----------*/
 #content3{
     background: #FFECD1;
     grid-area: content3;
-    /*margin-bottom: .4rem;*/
-    /*padding-top: 50px;
-    padding-bottom: 50px;*/
     text-align: center;
 }
 
@@ -377,12 +327,6 @@ hr {
     background: #FFECD1;  
 }
 
-/*.grandma {
-    max-width: 80%;
-    height: auto;
-    object-fit: cover;
-}*/
-
 .content4text {
     max-width: 80%;
     margin: 0 auto;
@@ -400,137 +344,26 @@ hr {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-/*---------------------------*/
+/*------------Chamber Banner--------------*/
 
-.content1header, .content2header, .content3header, .content4header, .sidebarheader, .mainheader {
+#chamber {
+    display: block;
+    background-color:#FFA047;
+    max-width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 25px;
+    margin: 0 auto;
+    margin-bottom: 10px;
 
-    /*color: black;*/
-    /*font-family: 'Lobster Two', cursive;*/
 }
 
 li {
     list-style-type: none;
 }
-
-/*section.contact {
-    display: grid;
-    position: relative;
-    max-width: 100%;
-    grid-template-columns: 50% auto;
-    padding: 1rem;
-    background-color: #6b8e67;
-}
-section.contact iframe {
-
-    width: 90%;
-    height: 200px;
-    grid-column: 1;
-    grid-row: span 3;
-}
-
-.text {
-
-    color: white;
-    padding-left: 0;
-
-}
-
-div.social {
-
-    display: grid;
-    grid-gap: 5px;
-    grid-template-columns: repeat(2,35px);
-    max-width: 100%;
-} 
-
-.bulk {
-    border: solid white;
-    height: 200px;
-    padding-left: 1rem;
-}
-
-img.grandma {
-    width: 50%;
-    max-height: 250px;
-    float: right;
-    padding: 1rem;
-
-}
-
-.resident {
-    color: black;
-    font-weight: bold;
-    text-align: center;
-    font-family: 'Lobster Two', cursive;
-
-}
-
-p {
-    color: black;
-    text-align: center;
-    padding-left: .5rem;
-  
-}
-
-.forecast {
-    display: flex;
-    margin: 0 auto;
-    flex-flow: column;
-    width: auto;
-    text-align: center;
-    
-}
-
-.forecast h4 {
-    padding: 0.2rem;
-    padding-left: 0;
-    margin: 0;
-    background-color:#6b8e67;
-    color: white;
-}
-
-.sunbox {
- 
-    display: block;
-    width: auto;
-    max-height: 55px;
-    background-color: white;
-    padding-top: .5rem;
-    padding-bottom: .5rem;
-
-}
-
-.sunpic{
-   
-    max-width: 55px;
-}
-
-span.temp {
-    display: block;
-    background-color: white;
-
-}
-
-.five {
-    text-align: center;
-    color: black;
-    font-family: 'Lobster Two', cursive;
-   
-}
-
-.golfcourse {
-    max-width: 100%;
-    height: 100%;
-    overflow: clip;
-}
-
-.activity {
-    color: black;
-    text-align: center;
-    font-family: 'Lobster Two', cursive;
-}
-
-.pactivity {
-    text-align: center;
-}
-*/

@@ -39,11 +39,10 @@ let options = {
     year: "numeric"
 };
 
-// ***************************
-// hamburger menu
+const hamButton = document.querySelector('#hamButton');
+const navigation = document.querySelector('.navigation');
 
-function toggleMenu() {
-    document.getElementById("primaryNav").classList.toggle("hide");
-}
-
+hamButton.addEventListener('click', () => {
+	navigation.classList.toggle('responsive');
+});
 

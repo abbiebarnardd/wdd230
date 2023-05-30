@@ -13,29 +13,28 @@
 <body>
     <div class="sitewrapper">
 <div class="page">
+    <body onload="currentDate(); meetandgreet()">
+        <script src="scripts/currentdate.js"></script>
+        <script src="scripts/meetandgreet.js"></script>
+        <div id="chamber" class="shake">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+        </div>
     <header>
-        <!--<span class="headerlogo">-->
         <img class="headerlogo" src="images/westsidesunny.png" alt="logo">
-        <!--</span>__>-->
-     <!--<button id="hamButton">&#9776;</button>-->
     </header>
 
-    <nav>
-        <button onclick="toggleMenu()">&#9776;</button>
-        <ul id="primaryNav" class="hide">
-
+    <nav class="navbar">
+        
+       <button id="hamButton">&#9776;</button>
+        <ul class="navigation">
         <li><a href="index.html" title="Home">Home</a></li>
         <li><a href="#" title="Community">Community</a></li>
         <li><a href="#" title="LocalEvents">Local Events</a></li>
         <li><a href="#" title="Health">Health</a></li>
         <div class="social-facebook">
             <a href="https://facebook.com">
-        <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-facebook"></i>
             </a>
-        </div>
-
         <div class="social-instagram">
-
             <a href="https://instagram.com">
                 <i class="fa-brands fa-instagram"></i>
             </a>
@@ -87,7 +86,15 @@
        </div>
 
        <div id="content2">
-        <h3 class="content2header">Content 2</h3>
+        <div class="weather">
+            <h3 class="weatherheader">Mesquite Weather</h3>
+            <p class="symbol">☀️</p>
+           
+            <h3 class="degrees"><span class="temperature">85</span>°F</h3>
+            <h4 class="desc-temp">Sunny</h4>
+            <hr>
+            <p>Wind Speed: <span class="speed">9</span>m/h</p>
+        </div>
        </div>
 
        <div id="content3">
@@ -108,40 +115,8 @@
             She's made lots of friends within the community. We are happy you
             are here, Elaine! </p>
         </div>
-
-        <!--<img class="grandma" src="images/grandma.jpeg" alt="grandma">-->
         </div>
     </main>
-    
-    <!--<section class="contact">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d47366
-        .34469339145!2d-111.87517579490891!3d42.098977407066165!2m3!1f0!2f0!3f0!
-        3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1602872714788!5m2!1sen!2sus" 
-        allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-
-        <div class="bulk">
-        <h3>Contact Information</h3>
-        <ul class="text">
-            <li>
-                500 Sunny Lane Mesquite, NV 89027
-            </li>
-            <li>
-                (123)-456-7891
-            </li>
-            <li>
-                info@westsidesunny.com
-            </li>
-        </ul>
-        <div class="social">
-            <a href="https://facebook.com">
-                <img src="images/facebook.png" alt="Facebook">
-            </a>
-            <a href="https://instagram.com">
-                <img src="images/instagram.jpeg" alt="Instagram">
-            </a>   
-        </div>
-        </div>
-    </section> -->
     <footer>
         <div class="footer-info">
             <p>West Side Sunny</p>
@@ -153,9 +128,7 @@
         <div class="class-info">
         <p>&copy; <span id="currentYear"></span> | West Side Sunny | Abbie Barnard | WDD 230 Project | Last Updated: <span id="currentdate"></span> </p>
         </div>
-        <!--<div>Last Updated: </div>
-        <span id="currentdate"></span>-->
-        <script src="scripts/javascript.js"></script>
+        <script src="scripts/script.js"></script>
         
        </footer>
        </div>

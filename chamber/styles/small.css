@@ -4,48 +4,8 @@
         width: 100%;
         overflow-x: hidden;
     }
-
-    nav {
-        font-size: 20px;
-        width: 100%;
-        margin: 0 auto;
-        background-color: #6b8e67;
-        text-align: center;
-        
-    }
-    
-    nav button {
-        background-color: transparent;
-        border: none;
-        font-size: 40px;
-        color: white;
-       
-    }
-    
-    nav ul {
-        margin: 0;
-        padding: 0;
-    }
-    nav ul li a {
-        display: block;
-        text-decoration: none;
-        color:white;
-        text-decoration: none;
-        font-size: 1rem;
-        padding: 10px;
-    }
-    
-    nav li a:hover {
-        transition: 0.7s ease;
-    }
-    
-    nav li a:hover {
-        color:#FFA047;
-    }
-    
-    nav ul.hide {
-        display: none;
-    }
+/*------------Navigation------------*/
+   
 
     main {
         display: grid;
@@ -59,7 +19,7 @@
             "content4"
             "sidebar";
            
-        max-height: 1700px;
+        max-height: 1800px;
           
     }
     #sidebar{
@@ -79,5 +39,15 @@
     
     .box3 {
         display: none;
+    }
+
+    .mainbutton {
+        bottom: 5%;
+        left: 50%;
+        transform: translate(-50%, -15%);
+    }
+
+    .mainbutton a {
+        font-size: 1.5rem;
     }
 }
