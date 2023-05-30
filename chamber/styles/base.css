@@ -22,7 +22,7 @@ main {
       
 
 }
-
+/*-------------header------------*/
 header {
 
     display: grid;
@@ -37,6 +37,11 @@ header {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+#currentdate {
+    margin: 0 auto;
+    font-family:'Roboto Condensed', sans-serif;
 }
 
 /*------------- Footer ------------*/
@@ -363,6 +368,7 @@ hr {
     margin-bottom: 10px;
 
 }
+
 
 li {
     list-style-type: none;
