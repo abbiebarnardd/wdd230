@@ -30,6 +30,7 @@ let fulldate = dayName + ", " + monthName + " " + d.getDate() + ", " + d.getFull
 
 document.getElementById("currentdate").textContent = fulldate;
 
+
 // ***************************
 
 let options = {
@@ -46,3 +47,4 @@ hamButton.addEventListener('click', () => {
 	navigation.classList.toggle('responsive');
 });
 
+document.querySelector('#datetoday').innerHTML = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format();

@@ -39,7 +39,7 @@ header {
     object-fit: cover;
 }
 
-#currentdate {
+ #datetoday {
     margin: 0 auto;
     font-family:'Roboto Condensed', sans-serif;
 }
