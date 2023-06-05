@@ -10,7 +10,7 @@ function meetandgreet() {
     weekday[6] = "Saturday";
     
     var n = weekday[d.getDay()];
-    if (n ==6 ){
+    if (n =="Monday", "Tuesday" ){
         document.getElementById("chamber").style.display = "block"; /*visible*/
 
     }else {
