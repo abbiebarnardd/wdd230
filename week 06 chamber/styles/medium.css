@@ -1,0 +1,113 @@
+@media (max-width: 1150px) {
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+            "main main"
+            "content4 content4"
+            "sidebar sidebar"
+            "content3 content3"
+            "content1 content2";
+           
+        max-height: 1400px;
+          
+    }
+    
+    #sidebar{
+    
+        background: #FFECD1;
+        padding: .5rem .5rem .5rem .5rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "box1"
+        "box2";
+        grid-area: sidebar;
+        
+        
+    }
+
+    .box3{
+        display: none;
+    }
+
+    #main {
+        max-height: 400px;
+    }
+
+  /*---------Nav ----------*/
+  /* small view navigation */
+#hamButton {
+
+    display: block;
+    margin: 0 auto;
+    font-size: 2rem;
+    padding: .3rem;
+    color: white;
+    background-color: transparent;
+    border: none;
+
+}
+
+.navigation {
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+	list-style: none;
+	background-color: #6b8e67;
+    margin: 0;
+    padding: 0;
+}
+.navigation li {
+	display: none;
+}
+
+.social-facebook, .social-instagram {
+    display: none;
+}
+.navigation li a {
+	padding-bottom: 1rem;
+    padding-top: 1rem;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+}
+.navigation li a:hover {
+    transition: 0.7s ease;
+	color:#FFA047;
+	font-weight: 700;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+/* when the button is clicked - the responsive class is added and accounted for here */
+.navigation.responsive li {
+	display: block;
+	width: 100%;
+}
+
+.navigation.responsive .social-facebook, .social-instagram {
+    display: block;
+    padding-bottom: 10px;
+}
+
+.navigation.responsive li a {
+	display: block;
+}
+
+.week6 {
+
+    max-height: 100%;
+    width: 100%;
+    }
+
+#main {
+    background-color: #FFECD1;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+}

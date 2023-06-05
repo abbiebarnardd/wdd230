@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/small.css">
     <script src="https://kit.fontawesome.com/4c19daf9f9.js" crossorigin="anonymous"></script>
+    <script src="scripts/windchill.js"></script>
     <title>WDD 230 Design Principles</title>
 </head>
 <body>
@@ -19,7 +20,7 @@
         <div id="chamber" class="shake">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
         </div>
     <header>
-        <img class="headerlogo" src="images/westsidesunny.png" alt="logo">
+        <img class="headerlogo" src="images/westsidesunny-1.webp" alt="logo">
         <div id="datetoday"></div>
     </header>
 
@@ -46,7 +47,12 @@
     <main>
     
        <div id="main">
-       <img class="valley-of-fire" src="images/mesquite3.webp" alt="mesquite">
+        <picture class="valley-of-fire">
+        <source media="(max-width: 600px)" srcset="images/heroSmall.jpg">
+        <source media="(max-width: 1150px)" srcset="images/heroMedium.jpg">
+        <img class="week6" src="images/heroLarge.jpg" alt="mesquite">
+        </picture>
+       <!--<img class="valley-of-fire" src="images/mesquite3.webp" alt="mesquite">_-->
        <!--<figure class="myphoto">
         <img class="week06img" src="images/wdd230-org.jpg" alt="week06">
        </figure>-->
@@ -94,10 +100,13 @@
             <h3 class="weatherheader">Mesquite Weather</h3>
             <p class="symbol">☀️</p>
            
-            <h3 class="degrees"><span class="temperature">85</span>°F</h3>
+            <p>Temperature: <span id="degrees">85</span> °F </p>
+            <!--<h3 class="degrees"><span class="temperature">85</span>°F</h3>-->
             <h4 class="desc-temp">Sunny</h4>
             <hr>
-            <p>Wind Speed: <span class="speed">9</span>m/h</p>
+            <p>Wind Speed: <span id="windspeed">10</span>mph</p>
+            <p>Wind Chill: <span id="windchill">5</span>°F</p>
+            <!--<p>Wind Speed: <span class="speed">9</span>m/h</p>-->
         </div>
        </div>
 
