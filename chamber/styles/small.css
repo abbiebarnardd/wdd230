@@ -50,4 +50,8 @@
     .mainbutton a {
         font-size: 1.5rem;
     }
+
+    img:hover {
+       opacity: 100;
+    }
 }

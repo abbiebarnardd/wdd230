@@ -381,3 +381,43 @@ hr {
 li {
     list-style-type: none;
 }
+
+/*--------------- Gallery Page ---------------*/
+
+.galleryheader {
+    text-align: center;
+    font-family:'Roboto Condensed', sans-serif;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+}
+
+.single-img {
+    padding: 0 20px 20px;
+
+}
+
+img:hover {
+    opacity: .5;
+    transition: .9s;
+}
+
+figcaption {
+    text-align: center;
+    font-family:'Roboto Condensed', sans-serif;
+    border: solid 1px black;
+    padding: 5px;
+    background-color: #6b8e67;;
+    color: white;
+}
+
+.numberofdays {
+    text-align: center;
+    padding-bottom: 5px;
+    font-family:'Roboto Condensed', sans-serif;
+}
