@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <script src="https://kit.fontawesome.com/4c19daf9f9.js" crossorigin="anonymous"></script>
+    <title>WDD 230 Design Principles</title>
+</head>
+<body>
+    <div class="sitewrapper">
+<div class="page">
+    <body onload="currentDate(); meetandgreet()">
+        <script src="scripts/currentdate.js"></script>
+        <script src="scripts/meetandgreet.js"></script>
+        <div id="chamber" class="shake">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+        </div>
+    <header>
+        <img class="headerlogo" src="images/westsidesunny.png" alt="logo">
+        <div id="datetoday"></div>
+    </header>
+
+    <nav class="navbar">
+        
+       <button id="hamButton">&#9776;</button>
+        <ul class="navigation">
+        <li><a href="index.html" title="Home">Home</a></li>
+        <li><a href="#" title="Community">Community</a></li>
+        <li><a href="#" title="LocalEvents">Local Events</a></li>
+        <li><a href="#" title="Health">Health</a></li>
+        <div class="social-facebook">
+            <a href="https://facebook.com">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+        <div class="social-instagram">
+            <a href="https://instagram.com">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </div>
+        </ul>
+    </nav>
+
+    <main class="thankyou">
+        <h2>Thank you!</h2>
+        <p>Thank you for submitting your information. We will get back to you as soon as we can!</p>
+    </main>
+
+    <footer>
+        <div class="footer-info">
+            <p>West Side Sunny</p>
+            <p>123 Valley Dr. Mesquite NV, 89027</p>
+            <p>westsidesunny@gmail.com</p>
+            <p>123-456-7890</p>
+            <a class="map" href="https://googlemaps.com">📍 Map Location</a>
+        </div>
+        <div class="class-info">
+        <p>&copy; <span id="currentYear"></span> | West Side Sunny | Abbie Barnard | WDD 230 Project | Last Updated: <span id="currentdate"></span> </p>
+        </div>
+        <script src="scripts/script.js"></script>
+        
+       </footer>
+       </div>
+    </body>
+    </div>
+    </html>
