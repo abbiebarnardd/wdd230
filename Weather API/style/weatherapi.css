@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Red+Hat+Display:wght@300&display=swap');
+
+body {
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+
+h1 {
+   font-weight: bolder;
+    text-shadow: 0px 0px 10px pink;
+
+}
+
+figcaption {
+    text-transform: uppercase;
+}
