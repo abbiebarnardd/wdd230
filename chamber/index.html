@@ -28,9 +28,9 @@
        <button id="hamButton">&#9776;</button>
         <ul class="navigation">
         <li><a href="index.html" title="Home">Home</a></li>
-        <li><a href="#" title="Community">Community</a></li>
+        <li><a href="join.html" title="Community">Join Us</a></li>
         <li><a href="#" title="LocalEvents">Local Events</a></li>
-        <li><a href="#" title="Health">Health</a></li>
+        <li><a href="discover.html" title="Health">Gallery</a></li>
         <div class="social-facebook">
             <a href="https://facebook.com">
                 <i class="fa-brands fa-facebook"></i>
@@ -48,7 +48,7 @@
        <div id="main">
        <img class="valley-of-fire" src="images/mesquite3.webp" alt="mesquite">
        <h1 class="mainheader">Welcome!</h1>
-       <button class="mainbutton"><a href="#"alt="Join Us">Join Us</a></button>
+       <button class="mainbutton"><a href="join.html"alt="Join Us">Join Us</a></button>
        </div> 
 
        <div id="sidebar">
@@ -89,17 +89,20 @@
        <div id="content2">
         <div class="weather">
             <h3 class="weatherheader">Mesquite Weather</h3>
-            <p class="symbol">☀️</p>
-           
-            <h3 class="degrees"><span class="temperature">85</span>°F</h3>
-            <h4 class="desc-temp">Sunny</h4>
-            <hr>
-            <p>Wind Speed: <span class="speed">9</span>m/h</p>
+            <figure>
+                <img src="" alt="" id="weather-icon" />
+                <figcaption class="condition"></figcaption>
+            </figure>
+            
+            
+            <div id="current-temp"></div>
+            <div id="speed"> <span id="windSpeed"></span></div>
+            <div id="chill"> <span id="windChill"></span></div>
+        
         </div>
-       </div>
-
+        </div>
        <div id="content3">
-        <button class="content3button"><a href="#"alt="Join Us">Join Us</a></button>
+        <button class="content3button"><a href="join.html"alt="Join Us">Join Us</a></button>
         <div class="content3text">
             <p>Learn how to join us here at West Side Sunny and how it will add to your life. </p>
         </div>
@@ -130,6 +133,7 @@
         <p>&copy; <span id="currentYear"></span> | West Side Sunny | Abbie Barnard | WDD 230 Project | Last Updated: <span id="currentdate"></span> </p>
         </div>
         <script src="scripts/script.js"></script>
+        <script src="scripts/weather.js"></script>
         
        </footer>
        </div>

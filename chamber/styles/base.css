@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
 
 body {
         margin: 3rem;
@@ -279,21 +280,27 @@ hr {
     background: #FFECD1;
     grid-area: content2;
     text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
-.symbol {
-    font-size: 4rem;
+#weather-icon {
+    width: 75px;
+    height: 75px;
+}
+
+
+.condition {
+    background-color: #FFECD1;
+    border: none;
+    color: black;
+    font-size: 1.5rem;
     margin-top: 0;
-    margin-bottom: 0;
 }
 
-.weatherheader {
-    margin-bottom: 0;
+#current-temp, #speed, #chill {
+    padding-bottom: 10px;
 }
 
-.degrees {
-    margin-top:0;
-}
 /*---------Content 3 Section -----------*/
 #content3{
     background: #FFECD1;
