@@ -530,83 +530,23 @@ input {
 /*---------------Directory Page --------------------*/
 .directorypage{
     display: block;
-    max-height: 2000px;
+    max-height: 3000px;
     font-family:'Roboto Condensed', sans-serif;
-}
-
-.businessdirectory  {
-    text-align: center;
-    
-}
-
-.gridBoxes {
-    
-    padding: 1rem;
-    text-align: center;
-    margin: 0.5rem auto;
-}
-
-#grid, #list {
-   
-    border-radius: 10px;
-    border: none;
-    background-color: #6b8e67;
-    font-family:'Roboto Condensed', sans-serif;
-    height: 50px;
-    width: 100px;
-    margin: 10px;
-    font-weight: bold;
-    font-size: 20px;
-    color: white;
-
 }
 
 .businesspartners {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-
 }
 
-address, phone, email, website {
-    display: flex;
-    
-}
-
-section {
-    margin: 20px;
-    padding: 20px;
-    background-color: #FFECD1;
-    border: 1px solid #FFECD1;
-    
-}
-
-
-.list {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin-bottom: 20px;
-}
-
-.list section {
-    
-  display: block;
-  text-align: center;
-  margin: auto;
-  width: 650px;
-  
-}
-
-.list website {
+name {
     display: block;
     text-align: center;
-   
-
+    font-family: 'Lobster Two', cursive;
+    font-size: 1.6rem;
+    font-weight: bold;
+    
 }
-
-.list section img, .list section phone, .list section email, .list section address {
-    display: none;
-}
-
 
 .act {
     display: block;
@@ -615,31 +555,79 @@ section {
     margin-bottom: 10px;
 }
 
-.grid section {
-    display: block;
+.list {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.gridBoxes {
     text-align: center;
-    border: solid 3px #6b8e67;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+    
+}
+
+#list, #grid  {
+    font-size: 1.2rem;
+    font-weight: bold;
+    height: 50px;
+    width: 100px;
+    border: none;
+    background-color: #6b8e67;
+    font-family:'Roboto Condensed', sans-serif;
     border-radius: 10px;
+   
+    color: white;
 }
 
-.grid section name, .grid section address, .grid section phone, .grid section email, .grid section website {
+.list section {
+    border: none;
     display: block;
-    text-align: center;
-    padding-bottom: 5px;
+    width: 750px;
+    margin: auto;
+    
 }
 
-section name {
-    font-family: 'Lobster Two', cursive;
-    font-weight: bold;
-    font-size: 1.5rem;
-}
-
-section membershiplevel {
-    color:#FFA047;
-    font-size: 1.5rem;
-    font-weight: bold;
-}
 .list .white {
     background-color: white;
-    border: none;
+}
+.list section img, .list section phone, .list section email, .list section address {
+    display: none;
+}
+
+.list website {
+    display: block;
+    text-align: center;
+}
+
+.businessdirectory {
+    text-align: center;
+    margin: auto;
+}
+
+section {
+    margin: 20px;
+    padding: 10px;
+    background-color: #FFECD1;
+    border-radius: 10px;
+    border: 3px solid #6b8e67;
+    
+}
+
+address, phone, email, website {
+    display: flex;
+    font-size: .9rem;
+    margin-top: 5px;
+    font-family:'Roboto Condensed', sans-serif;
+    justify-content: center;
+}
+
+membershiplevel {
+    display: block;
+    font-family:'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    color: #FFA047;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 1.2rem;
+    
 }

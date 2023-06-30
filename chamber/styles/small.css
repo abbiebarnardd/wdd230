@@ -54,22 +54,21 @@
     img:hover {
        opacity: 100;
     }
+}
+@media (max-width: 700px) {
     /*-------- Directory ---------*/
 .businesspartners {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: block;
 }
 
-.directorypage {
-    max-height: 3000px;
+section img {
+    display: display block;
+    margin: auto;
+    padding: 15px;
 }
 
 .list section {
-    max-width: 200px;
-    
+    width: 200px;
 }
 
- website {
-    font-size: 1rem;
-}
 }

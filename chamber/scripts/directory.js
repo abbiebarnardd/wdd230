@@ -1,7 +1,8 @@
 
-const url = "data.json"
+const url = 'https://raw.githubusercontent.com/abbiebarnardd/wdd230/master/chamber/data.json'
 
-async function getDirectoryData() {
+
+async function getDirectoryData(){
     const response = await fetch(url);
     const data = await response.json();
     displayDirectory(data.businesses);

@@ -1,0 +1,94 @@
+{
+    "businesses": [
+      {
+        "name": "ACT Repair",
+        "imageurl": "https://assets.churchofjesuschrist.org/ec/f8/ecf80a88e31429d0aa0eeec6e2c74851a4bf4235/nauvoo_temple_joseph_art_lds.jpeg",
+        "address": "546 Commerce Cir Mesquite, NV 89027",
+        "phone": "(702) 346-1917",
+        "email": "actmesquite@gmail.com",
+        "website": "www.act-body.com",
+        "membershiplevel": "Gold"
+        
+      },
+      {
+      "name": "Mesquite Dental",
+      "imageurl": "https://assets.churchofjesuschrist.org/ec/f8/ecf80a88e31429d0aa0eeec6e2c74851a4bf4235/nauvoo_temple_joseph_art_lds.jpeg",
+      "address": "61 N Willow St #1, Mesquite, NV 89027",
+      "phone": "(702) 346-2882",
+      "email": "mesquitedental@gmail.com",
+      "website": "www.mesquitedental.com",
+      "membershiplevel": "Silver"
+      
+    },
+    {
+        "name": "Reliance Connects",
+        "imageurl": "https://assets.churchofjesuschrist.org/ec/f8/ecf80a88e31429d0aa0eeec6e2c74851a4bf4235/nauvoo_temple_joseph_art_lds.jpeg",
+        "address": "61 W Mesquite, Blvd, Mesquite, NV 89027",
+        "phone": "(702) 346-5211",
+        "email": "relianceconnects@gmail.com",
+        "website": "www.relianceconnects.com",
+        "membershiplevel": "Gold"
+        
+      },
+      {
+        "name": "Hole Foods Bakery",
+        "imageurl": "https://assets.churchofjesuschrist.org/ec/f8/ecf80a88e31429d0aa0eeec6e2c74851a4bf4235/nauvoo_temple_joseph_art_lds.jpeg",
+        "address": "12 W Mesquite Blvd, Mesquite, NV 89027",
+        "phone": "(702) 344-5544",
+        "email": "holefoods@gmail.com",
+        "website": "www.holefoodsb.com",
+        "membershiplevel": "Silver"
+        
+      },
+      {
+        "name": "Mesa View Medical",
+        "imageurl": "https://assets.churchofjesuschrist.org/ec/f8/ecf80a88e31429d0aa0eeec6e2c74851a4bf4235/nauvoo_temple_joseph_art_lds.jpeg",
+        "address": "1301 Bertha Howe Ave Ste 1, Mesquite, NV 89027",
+        "phone": "(702) 346-0800",
+        "email": "mesaviewmed@gmail.com",
+        "website": "www.mesaviewmedical.com",
+        "membershiplevel": "Bronze"
+        
+      },
+      {
+        "name": "Quantum Chiropractic",
+        "imageurl": "https://assets.churchofjesuschrist.org/ec/f8/ecf80a88e31429d0aa0eeec6e2c74851a4bf4235/nauvoo_temple_joseph_art_lds.jpeg",
+        "address": "190 E Mesquite Blvd B, Mesquite, NV 89027",
+        "phone": "(725) 225-1148",
+        "email": "quantumchiropractic@gmail.com",
+        "website": "www.quantumchiro.com",
+        "membershiplevel": "Gold"
+        
+      },
+      {
+        "name": "Legacy Construction",
+        "imageurl": "https://assets.churchofjesuschrist.org/ec/f8/ecf80a88e31429d0aa0eeec6e2c74851a4bf4235/nauvoo_temple_joseph_art_lds.jpeg",
+        "address": "340 Falcon Ridge Pkwy #700, Mesquite, NV 89027",
+        "phone": "(702) 346-8955",
+        "email": "legacyconstruction@gmail.com",
+        "website": "www.legacyconstruction.com",
+        "membershiplevel": "Silver"
+        
+      },
+      {
+        "name": "Premier Properties",
+        "imageurl": "https://assets.churchofjesuschrist.org/ec/f8/ecf80a88e31429d0aa0eeec6e2c74851a4bf4235/nauvoo_temple_joseph_art_lds.jpeg",
+        "address": "546 305 Calais Dr, Mesquite, NV 89027",
+        "phone": "(702) 345-3000",
+        "email": "preproperties@gmail.com",
+        "website": "www.premierproperties.com",
+        "membershiplevel": "Bronze"
+        
+      },
+      {
+        "name": "Fiz Biz",
+        "imageurl": "https://assets.churchofjesuschrist.org/ec/f8/ecf80a88e31429d0aa0eeec6e2c74851a4bf4235/nauvoo_temple_joseph_art_lds.jpeg",
+        "address": "325 N Sandhill Blvd, Mesquite, NV 89027",
+        "phone": "(702) 550-7005",
+        "email": "fizbiz@gmail.com",
+        "website": "www.fizbiz.com",
+        "membershiplevel": "Bronze"
+        
+      }
+
+    ]}

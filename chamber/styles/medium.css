@@ -100,13 +100,20 @@
 }
 
 /*-------- Directory ---------*/
- .businesspartners {
+.businesspartners {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.list section {
+.list {
+    display: grid;
     grid-template-columns: 1fr;
+}
+.list section {
+    display: block;
+    margin: auto;
+    width: 400px;
+    border: none;
 }
 
 }
