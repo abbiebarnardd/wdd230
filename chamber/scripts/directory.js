@@ -1,5 +1,5 @@
 
-const url = 'https://raw.githubusercontent.com/abbiebarnardd/wdd230/master/chamber/data.json'
+const url = 'https://abbiebarnardd.github.io/wdd230/chamber/data.json'
 
 
 async function getDirectoryData(){
@@ -39,13 +39,14 @@ async function getDirectoryData(){
       portrait.setAttribute('height', '70');
 
     card.appendChild(name);
+    businesspartners.appendChild(card);
     card.appendChild(address);
 	  card.appendChild(phone);
 	  card.appendChild(email);
 	  card.appendChild(website);
     card.appendChild(portrait);
 	  card.appendChild(membershiplevel);
-    businesspartners.appendChild(card);
+    
     }) 
 
   } 
