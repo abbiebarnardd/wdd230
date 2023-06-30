@@ -1,10 +1,11 @@
-var d = new Date();
 
-//date field//
-document.getElementById("date").value = d.toDateString();
+const date = new Date();
 
-//time field//
-var hours = d.getHours();
-var mins = d.getMinutes();
-var seconds = d.getSeconds();
-document.getElementById("time").value = hours + ":" + mins + ":" + seconds;
+var datetime = "Last Sync: " + date.getDate() + "/"
++ (date.getMonth()+1)  + "/"
++ date.getFullYear() + " || "
++ date.getHours() + ":"
++ date.getMinutes() + ":"
++ date.getSeconds();
+console.log(datetime)
+document.getElementById("datetime").value = datetime

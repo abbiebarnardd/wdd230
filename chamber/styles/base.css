@@ -366,8 +366,8 @@ hr {
 
 /*------------Chamber Banner--------------*/
 
-#chamber {
-    display: block;
+#chamber{
+    /*display: block;*/
     background-color:#FFA047;
     max-width: 100%;
     padding-top: 1rem;
@@ -436,7 +436,7 @@ figcaption {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height:1400px;
+    max-height: 2000px;
     
 }
 
@@ -525,4 +525,121 @@ input {
     flex-direction: column;
     text-align: center;
     font-family:'Roboto Condensed', sans-serif;
+}
+
+/*---------------Directory Page --------------------*/
+.directorypage{
+    display: block;
+    max-height: 2000px;
+    font-family:'Roboto Condensed', sans-serif;
+}
+
+.businessdirectory  {
+    text-align: center;
+    
+}
+
+.gridBoxes {
+    
+    padding: 1rem;
+    text-align: center;
+    margin: 0.5rem auto;
+}
+
+#grid, #list {
+   
+    border-radius: 10px;
+    border: none;
+    background-color: #6b8e67;
+    font-family:'Roboto Condensed', sans-serif;
+    height: 50px;
+    width: 100px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+
+}
+
+.businesspartners {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+address, phone, email, website {
+    display: flex;
+    
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #FFECD1;
+    border: 1px solid #FFECD1;
+    
+}
+
+
+.list {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 20px;
+}
+
+.list section {
+    
+  display: block;
+  text-align: center;
+  margin: auto;
+  width: 650px;
+  
+}
+
+.list website {
+    display: block;
+    text-align: center;
+   
+
+}
+
+.list section img, .list section phone, .list section email, .list section address {
+    display: none;
+}
+
+
+.act {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.grid section {
+    display: block;
+    text-align: center;
+    border: solid 3px #6b8e67;
+    border-radius: 10px;
+}
+
+.grid section name, .grid section address, .grid section phone, .grid section email, .grid section website {
+    display: block;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+section name {
+    font-family: 'Lobster Two', cursive;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+section membershiplevel {
+    color:#FFA047;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.list .white {
+    background-color: white;
+    border: none;
 }

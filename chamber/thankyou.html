@@ -15,8 +15,8 @@
 <div class="page">
     <body onload="currentDate(); meetandgreet()">
         <script src="scripts/currentdate.js"></script>
-        <script src="scripts/meetandgreet.js"></script>
-        <div id="chamber" class="shake">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+        <div id="chamber" style="display: none;">
+            <span>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</span>
         </div>
     <header>
         <img class="headerlogo" src="images/westsidesunny.png" alt="logo">
@@ -27,10 +27,10 @@
         
        <button id="hamButton">&#9776;</button>
         <ul class="navigation">
-        <li><a href="index.html" title="Home">Home</a></li>
-        <li><a href="#" title="Community">Community</a></li>
-        <li><a href="#" title="LocalEvents">Local Events</a></li>
-        <li><a href="#" title="Health">Health</a></li>
+            <li><a href="index.html" title="Home">Home</a></li>
+            <li><a href="join.html" title="Community">Join Us</a></li>
+            <li><a href="directory.html" title="LocalEvents">Directory</a></li>
+            <li><a href="discover.html" title="Health">Discover</a></li>
         <div class="social-facebook">
             <a href="https://facebook.com">
                 <i class="fa-brands fa-facebook"></i>
@@ -60,6 +60,7 @@
         <p>&copy; <span id="currentYear"></span> | West Side Sunny | Abbie Barnard | WDD 230 Project | Last Updated: <span id="currentdate"></span> </p>
         </div>
         <script src="scripts/script.js"></script>
+        <script src="scripts/meetandgreet.js"></script>
         
        </footer>
        </div>

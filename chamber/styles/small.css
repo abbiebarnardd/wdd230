@@ -54,4 +54,22 @@
     img:hover {
        opacity: 100;
     }
+    /*-------- Directory ---------*/
+.businesspartners {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.directorypage {
+    max-height: 3000px;
+}
+
+.list section {
+    max-width: 200px;
+    
+}
+
+ website {
+    font-size: 1rem;
+}
 }

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <script src="https://kit.fontawesome.com/4c19daf9f9.js" crossorigin="anonymous"></script>
+    <title>WDD 230 Design Principles</title>
+</head>
+<body>
+    <div class="sitewrapper">
+<div class="page">
+    <body onload="currentDate(); meetandgreet()">
+        <script src="scripts/currentdate.js"></script>
+        <div id="chamber" style="display: none;">
+            <span>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</span>
+        </div>
+    <header>
+        <img class="headerlogo" src="images/westsidesunny.png" alt="logo">
+        <div id="datetoday"></div>
+    </header>
+
+    <nav class="navbar">
+        
+       <button id="hamButton">&#9776;</button>
+        <ul class="navigation">
+            <li><a href="index.html" title="Home">Home</a></li>
+            <li><a href="join.html" title="Community">Join Us</a></li>
+            <li><a href="directory.html" title="LocalEvents">Directory</a></li>
+            <li><a href="discover.html" title="Health">Discover</a></li>
+        <div class="social-facebook">
+            <a href="https://facebook.com">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+        <div class="social-instagram">
+            <a href="https://instagram.com">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </div>
+        </ul>
+    </nav>
+
+   <main class="directorypage">
+    <h2 class="businessdirectory"> Business Directory </h2>
+    <div class="gridBoxes">
+        <button id="grid">Grid</button>
+        <button id="list">List</button>
+    </div>
+    <div class="businesspartners list">
+        <section>
+            <name>ACT Repair</name>
+            <img class="act" src="images/car.png" loading="lazy" width="auto" height="70">
+            <address>546 Commerce Cir Mesquite, NV 89027</address>
+            <phone>(702) 346-1917</phone>
+            <email>actmesquite@gmail.com</email>
+            <website>www.act-body.com</website>
+            <membershiplevel>Gold</membershiplevel>
+        </section>
+        <section class="white">
+            <name>Mesquite Dental</name>
+            <img class="act" src="images/dentist.jpg" loading="lazy" width="auto" height="70">
+            <address>61 N Willow St #1, Mesquite, NV 89027</address>
+            <phone>(702) 346-2882</phone>
+            <email>mesquitedental@gmail.com</email>
+            <website>www.mesquitedental.com</website>  
+            <membershiplevel>Silver</membershiplevel>
+        </section>
+        <section>
+            <name>Reliance Connects</name>
+            <img class="act" src="images/powercord.jpeg" loading="lazy" width="auto" height="70">
+            <address>61 W Mesquite Blvd, Mesquite, NV 89027</address>
+            <phone>(702) 346-5211</phone>
+            <email>relianceconnects@gmail.com</email>
+            <website>www.relianceconnects.com</website>
+            <membershiplevel>Gold</membershiplevel>
+        </section>
+        <section class="white">
+            <name>ACT Repair</name>
+            <img src="">
+            <address>546 Commerce Cir Mesquite, NV 89027</address>
+            <phone>(702) 346-1917</phone>
+            <email>actmesquite@gmail.com</email>
+            <website>www.act-body.com</website>  
+            <membershiplevel>Gold</membershiplevel>
+        </section>
+        <section>
+            <name>ACT Repair</name>
+            <img src="">
+            <address>546 Commerce Cir Mesquite, NV 89027</address>
+            <phone>(702) 346-1917</phone>
+            <email>actmesquite@gmail.com</email>
+            <website>www.act-body.com</website> 
+            <membershiplevel>Gold</membershiplevel>
+        </section>
+        <section class="white">
+            <name>ACT Repair</name>
+            <img src="">
+            <address>546 Commerce Cir Mesquite, NV 89027</address>
+            <phone>(702) 346-1917</phone>
+            <email>actmesquite@gmail.com</email>
+            <website>www.act-body.com</website>  
+            <membershiplevel>Gold</membershiplevel>
+        </section>
+        <section>
+            <name>ACT Repair</name>
+            <img src="">
+            <address>546 Commerce Cir Mesquite, NV 89027</address>
+            <phone>(702) 346-1917</phone>
+            <email>actmesquite@gmail.com</email>
+            <website>www.act-body.com</website> 
+            <membershiplevel>Gold</membershiplevel>
+        </section>
+        <section class="white">
+            <name>ACT Repair</name>
+            <img src="">
+            <address>546 Commerce Cir Mesquite, NV 89027</address>
+            <phone>(702) 346-1917</phone>
+            <email>actmesquite@gmail.com</email>
+            <website>www.act-body.com</website> 
+            <membershiplevel>Gold</membershiplevel>
+        </section>
+        <section>
+            <name>ACT Repair</name>
+            <img src="">
+            <address>546 Commerce Cir Mesquite, NV 89027</address>
+            <phone>(702) 346-1917</phone>
+            <email>actmesquite@gmail.com</email>
+            <website>www.act-body.com</website>
+            <membershiplevel>Gold</membershiplevel>
+        </section>
+    </div>
+   </main>
+    <footer>
+        <div class="footer-info">
+            <p>West Side Sunny</p>
+            <p>123 Valley Dr. Mesquite NV, 89027</p>
+            <p>westsidesunny@gmail.com</p>
+            <p>123-456-7890</p>
+            <a class="map" href="https://googlemaps.com">📍 Map Location</a>
+        </div>
+        <div class="class-info">
+        <p>&copy; <span id="currentYear"></span> | West Side Sunny | Abbie Barnard | WDD 230 Project | Last Updated: <span id="currentdate"></span> </p>
+        </div>
+        <script src="scripts/script.js"></script> 
+       </footer>
+       <script src="scripts/directory.js"></script>
+       <script src="scripts/meetandgreet.js"></script>
+       </div>
+    </body>
+    </div>
+    </html>

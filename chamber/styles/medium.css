@@ -98,4 +98,15 @@
 .navigation.responsive li a {
 	display: block;
 }
+
+/*-------- Directory ---------*/
+ .businesspartners {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.list section {
+    grid-template-columns: 1fr;
+}
+
 }
