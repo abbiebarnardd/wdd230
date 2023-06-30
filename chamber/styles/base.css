@@ -548,7 +548,7 @@ name {
     
 }
 
-.act {
+section img {
     display: block;
     margin: auto;
     margin-top: 10px;
@@ -558,6 +558,8 @@ name {
 .list {
     display: grid;
     grid-template-columns: 1fr;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 .gridBoxes {
     text-align: center;
@@ -587,7 +589,7 @@ name {
     
 }
 
-.list .white {
+.list section:nth-child(even) {
     background-color: white;
 }
 .list section img, .list section phone, .list section email, .list section address {
@@ -628,6 +630,6 @@ membershiplevel {
     color: #FFA047;
     text-align: center;
     margin-top: 5px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     
 }

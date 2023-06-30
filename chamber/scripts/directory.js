@@ -29,7 +29,7 @@ async function getDirectoryData(){
     portrait.setAttribute('loading', 'lazy');
     portrait.setAttribute('width', 'auto');
     portrait.setAttribute('height', '70'); 
-    
+
 	  name.textContent = `${business.name}`;
     address.innerHTML = `${business.address}`;
 	  phone.innerHTML = `${business.phone}`;
@@ -41,12 +41,12 @@ async function getDirectoryData(){
     
 
     card.appendChild(name);
+    card.appendChild(portrait);
     businesspartners.appendChild(card);
     card.appendChild(address);
 	  card.appendChild(phone);
 	  card.appendChild(email);
 	  card.appendChild(website);
-    card.appendChild(portrait);
 	  card.appendChild(membershiplevel);
     
     }) 
