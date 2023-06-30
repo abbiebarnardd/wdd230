@@ -25,6 +25,11 @@ async function getDirectoryData(){
 	  let website = document.createElement('website');
 	  let membershiplevel = document.createElement('membershiplevel')
 
+    portrait.setAttribute('src', business.imageurl);
+    portrait.setAttribute('loading', 'lazy');
+    portrait.setAttribute('width', 'auto');
+    portrait.setAttribute('height', '70'); 
+    
 	  name.textContent = `${business.name}`;
     address.innerHTML = `${business.address}`;
 	  phone.innerHTML = `${business.phone}`;
@@ -33,10 +38,7 @@ async function getDirectoryData(){
 	  membershiplevel.textContent = `${business.membershiplevel}`;
 
       
-      portrait.setAttribute('src', business.imageurl);
-	    portrait.setAttribute('loading', 'lazy');
-      portrait.setAttribute('width', 'auto');
-      portrait.setAttribute('height', '70');
+    
 
     card.appendChild(name);
     businesspartners.appendChild(card);
