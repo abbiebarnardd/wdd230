@@ -43,12 +43,51 @@
         </div>
         </ul>
     </nav>
-
-    <main class="thankyou">
-        <h2>Thank you!</h2>
-        <p>Thank you for submitting your information. We will get back to you as soon as we can!</p>
+    <main class="contactmain">
+    
+        <div id="contactus">
+            
+            <div class="box1contact">
+                <h3>Contact Information</h3>
+                
+                <hr>
+                <p>📍 123 Valley Dr. Mesquite NV, 89027</p>
+                <p>📞 (123) -456-7890</p>
+                <p>📧westsidesunny@gmail.com</p>
+                <p>Office hours: Monday-Friday 1pm-5pm</p>
+               
+            </div>
+            <div class="box2contact">
+                <h3>Board of Director Information</h3>
+                <hr>
+                 <p>President: Abbie Barnard </p>
+                <p>Vice President: Sharen Smith</p>
+                <p>Secretary: John Wade</p>
+                <p>Treasurer: Kevin Johnson</p>
+            </div>
+            <form action="thankyou.html">
+            <fieldset class="businessinfo2">
+                <legend class="title">Business Information</legend>
+                <label>Name:<br> <input style="font-size: 20px" name="businessposition" type="text" placeholder="Your Name"> </label>
+                <br>
+                <label>Contact Number<br /><input style="font-size: 20px" name="contact" type="tel" placeholder="702-123-4567" required/> </label>
+                <br>
+                <label>Question</label>
+                <textarea class="businessdescription" style="font-size: 20px" name="businessdescription"  placeholder=""> </textarea> 
+                <br>
+            </fieldset>
+            <button type="submit" value="Submit" class="submitbutton">Submit Form</button>
+        </form>
+           </div>
+     
+        <!--<section class="contactus">
+            <span class="try">
+                <li class="contactstuff">📍 123 Valley Dr. Mesquite NV, 89027</li>
+                <li class="contactstuff">📞 (123) -456-7890 </li>
+                <li class="contactstuff">📧westsidesunny@gmail.com</li>
+            </span>
+        </section>-->
     </main>
-
     <footer>
         <div class="footer-info">
             <p>West Side Sunny</p>
@@ -61,7 +100,9 @@
         <p>&copy; <span id="currentYear"></span> | West Side Sunny | Abbie Barnard | WDD 230 Project | Last Updated: <span id="currentdate"></span> </p>
         </div>
         <script src="scripts/script.js"></script>
+        <script src="scripts/weather.js"></script>
         <script src="scripts/meetandgreet.js"></script>
+        
        </footer>
     </body>
     </div>
